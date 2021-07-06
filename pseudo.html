@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        h1:hover{
+            color: royalblue;
+            background-color: springgreen;
+            
+           
+            font-weight: 700;
+
+        }
+        h1{
+            color: salmon;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+
+        }
+        a:visited{
+            color: blue;
+        }
+        li:first-child{
+            color: chocolate;
+        }
+        li:last-child{
+            background-color: cornflowerblue ;
+        }
+        li:nth-child(2n){
+            color: crimson;
+        }
+        li:nth-child(2n+1){
+            background-color: teal;
+        }
+        h3::before{
+            content: "Hello ";
+        }
+        .special::after{
+            content: ' gelo';
+            background-color: darkkhaki;
+            font-size: 39px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">go to google</a>
+    <a href="https://www.programming-hero.com/">go to programming hero</a>
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwibx6-hgc_xAhWBSH0KHa1qBfUQFjAKegQIJRAD&url=https%3A%2F%2Ffaq.usps.com%2Fs%2Farticle%2FWhere-Can-I-Find-New-Construction-and-Street-Address-Information&usg=AOvVaw1g1Zqm4dl8DJMvVxydagdZ">never visited
+    </a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3 class="special" >middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3 class="special">middle size header -4</h3>
+    <h3 class="special">middle size header -5</h3>
+    <h3>middle size header -6</h3>
+  <ul>
+      <li>Alia</li>
+      <li>Dalia</li>
+      <li>Talia</li>
+      <li>Malia</li>
+      <li>Palia</li>
+      <li>Lalia</li>
+      <li>maria</li>
+      <li>faria</li>
+      <li>qaria</li>
+  </ul>
+</body>
+</html>
